@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+.container{
+    text-align: center;
+}
+.logo {
+    width: 25%;
+    height:30px;
+    margin-bottom: 3vh;
+    margin-left:2 auto;
+    margin-top: 100px;
+}
+.container h2{
+    margin-bottom: 20px;
+    color: hsl(0,0%,59%);
+    font-weight: lighter;
+}
+.container p{
+    font-size: 15px;
+}
+.search input{
+    left: 50%;
+    margin: 10px 10px 10px 50px;
+    color:rgb(30, 33, 43);
+    height: 50px;
+    width: 300px;
+    border:1px solid hsl(223,100%,88%);
+    border-radius: 30px ;
+}
+.notify input{
+    left: 50%;
+    margin: 10px 10px 50px 50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px ;
+    font-family: 'Libre Franklin', sans-serif;
+    color: beige;
+    border: 1px solid hsl(223,87%,63%);
+    background-color: hsl(223,87%,63%);
+}
+img{
+    margin: 30px;
+    width: 350px;
+    height: 350px;
+}
+ .footer{
+    margin-left: 18vh;
+    padding-top: 20px;
+}
+.fa-facebook{
+    display: inline-block;
+    font-size: 1em;
+    padding: 0.5em;
+ 
+}
+
+.fa-twitter{
+    display: inline-block;
+    font-size: 1em;
+    padding: 0.5em;
+
+ 
+}
+.fa-instagram{
+    display: inline-block;
+    font-size: 1em;
+    padding: 0.5em;
+
+ 
+}
+.Copyright{
+    display: inline-block;
+    color: rgb(87, 79, 79);
+    font-size: 15px;
+    margin-top: 2vh;
+    margin-left: 15vh;
+    
+} 
+
+
+@media only screen and (min-width:1080px) and (max-width:1444px){
+    .logo{
+        width: 80px;
+        height:25px;
+        margin-bottom: 1vh;
+        margin-left: auto;
+    }
+    .search input {
+     margin-left: 70vh;
+     padding-left: 10px ;
+     float: left;
+     height: 40px;
+     width: 20%;
+     }
+     
+    .notify input{
+        display: block;
+     margin-right:34vw;
+     padding-right: 3px ;
+    height: 40px;
+    width: 10%;
+    }
+
+    img{
+    width: 70%;
+    height: 450px;
+    margin-top: 10vh ;
+    margin-left: 30vh;
+    }
+    .footer{
+        margin-left: 90vh;
+        padding-top: 20px;
+    }
+    .Copyright{
+        margin-left: 85vh;
+        padding-top: 20px;
+    }
+}
