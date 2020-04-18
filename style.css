@@ -1,130 +1,145 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
-body{
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 20px;
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
 }
-.container{
-    text-align: center;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+}
+.bodycontent {
+  text-align: center;
 }
 .logo {
-    width: 25%;
-    height:30px;
-    margin-bottom: 3vh;
-    margin-left:2 auto;
-    margin-top: 100px;
+  width: 25%;
+  height: 25px;
+  padding-left: 2rem;
+  margin-bottom: 3vh;
+  margin-left: 2 auto;
+  margin-top: 100px;
 }
-.container h2{
-    margin-bottom: 20px;
-    color: hsl(0,0%,59%);
-    font-weight: lighter;
-    text-align: center;
+.bodycontent h2 {
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 59%);
+  font-weight: lighter;
+  padding-left: 2rem;
 }
-.container p{
-    font-size: 15px;
+.bodycontent p {
+  font-size: 1rem;
+  margin: 1rem;
+  margin-bottom: 2rem;
 }
-
-.search{
-    padding: 5px;
-}
-.search input{
-    left: 50%;
-    margin: 10px 10px 10px 50px;
-    color:rgb(30, 33, 43);
-    height: 50px;
-    width: 300px;
-    border:1px solid hsl(223,100%,88%);
-    border-radius: 30px ;
-}
-.notify input{
-    left: 50%;
-    margin: 10px 10px 50px 50px;
-    height: 50px;
-    width: 300px;
-    border-radius: 30px ;
-    font-family: 'Libre Franklin', sans-serif;
-    color: beige;
-    border: 1px solid hsl(223,87%,63%);
-    background-color: hsl(223,87%,63%);
-}
-img{
-    margin: 30px;
-    width: 350px;
-    height: 350px;
-}
- .footer{
-    margin-left: 18vh;
-    padding-top: 20px;
-}
-.fa-facebook{
-    display: inline-block;
-    font-size: 1em;
-    padding: 0.5em;
- 
+.search input {
+  left: 50%;
+  margin: 10px 10px 10px 50px;
+  color: hsl(223, 100%, 88%);
+  height: 50px;
+  width: 300px;
+  padding: 1.5rem;
+  outline: none;
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 30px;
 }
 
-.fa-twitter{
-    display: inline-block;
-    font-size: 1em;
-    padding: 0.5em;
-
- 
+.notify input {
+  left: 50%;
+  margin: 10px 10px 50px 50px;
+  height: 50px;
+  width: 300px;
+  border-radius: 30px;
+  outline: none;
+  font-family: "Libre Franklin", sans-serif;
+  color: cornsilk;
+  border: 1px solid hsl(223, 87%, 63%);
+  background-color: hsl(223, 87%, 63%);
 }
-.fa-instagram{
-    display: inline-block;
-    font-size: 1em;
-    padding: 0.5em;
-
- 
+img {
+  margin: 30px;
+  width: 350px;
+  height: 350px;
 }
-.Copyright{
-    display: inline-block;
-    color: rgb(87, 79, 79);
-    font-size: 15px;
-    margin-top: 2vh;
-    margin-left: 15vh;
-    padding: 15px;
-    
-} 
+.social {
+  margin-left: 13vh;
+  padding-right: 2rem;
+  padding-top: 20px;
+  padding-left: 2rem;
+}
+.fa-facebook {
+  display: inline-block;
+  font-size: 1em;
+  padding: 1rem;
+}
 
+.fa-twitter-square {
+  display: inline-block;
+  font-size: 1em;
+  padding: 1rem;
+}
+.fa-instagram {
+  display: inline-block;
+  font-size: 1em;
+  padding: 1rem;
+}
+.footer {
+  display: inline-block;
+  color: rgb(49, 47, 47);
+  font-size: 10px;
+  margin-top: 2vh;
+  margin-left: 15vh;
+}
 
-@media only screen and (min-width:1080px) and (max-width:1444px){
-    .logo{
-        width: 80px;
-        height:25px;
-        margin-bottom: 1vh;
-        margin-left: auto;
-    }
-    .search input {
-     margin-left: 70vh;
-     padding-left: 10px ;
-     float: left;
-     height: 40px;
-     width: 20%;
-     }
-     
-    .notify input{
-        display: block;
-     margin-right:34vw;
-     padding-right: 3px ;
+.footer p {
+  margin: 2rem;
+  font-size: 0.7rem;
+  padding-right: 0.5rem;
+  margin-left: -0.2rem;
+}
+@media only screen and (min-width: 1080px) and (max-width: 1444px) {
+  .logo {
+    width: 80px;
+    height: 25px;
+
+    margin-bottom: 1vh;
+    margin-left: auto;
+  }
+  .search input {
+    margin-left: 70vh;
+    padding-left: 10px;
+    float: left;
     height: 40px;
-    width: 10%;
-    }
-
-    img{
+    width: 20%;
+  }
+  .notify input {
+    display: block;
+    margin-right: 34vw;
+    height: 55px;
+    width: 13%;
+  }
+  img {
     width: 70%;
     height: 450px;
-    margin-top: 10vh ;
+    margin-top: 10vh;
     margin-left: 30vh;
-    }
-    .footer{
-        margin-left: 90vh;
-        padding-top: 20px;
-    }
-    .Copyright{
-        margin-left: 85vh;
-        padding-top: 20px;
-    }
+  }
+  .social {
+    margin-left: 84vh;
+    padding-top: 20px;
+    padding-right: 2rem;
+  }
+  .footer {
+    margin-left: 85vh;
+    padding-top: 20px;
+  }
 }
