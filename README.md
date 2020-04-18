@@ -1,3 +1,3 @@
 ###Ping
 
-The netlify link---https://serene-poincare-761271.netlify.com/
+The netlify link---https://piing-landing-page.netlify.app/
