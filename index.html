@@ -4,38 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>PING</title>
-    <link rel="stylesheet" href="style.css" />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/d0c3646a7b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>PING</title>
   </head>
   <body>
-    <div class="container">
-        <div class="bodycontent">
-            <img class="logo" src="images/logo.svg" alt="logo">
-            <h2>We are launching <span style="font-weight: bold; color: black;"> soon!</span></h2>
-            <p>Subscribe and get notified</p>
-        </div>
-        <div class="search">
-            <input type="text" value=" Your email address..."></div>
-            <div class="notify">
-                <input type="submit" value="Notify me" name="Notify me">
-        
-            </div>
-            <img src="images/illustration-dashboard.png" alt="image" width="400px" height="500px" >
-    </div>
-    <div class="social">
-        <a href="#"><i class="fa fa-facebook"></i> 
-            <a href="#"> <i class="fa fa-twitter"></i></a>
-             <a href="#"><i class="fa fa-instagram"></i></a>
-    </div>
-    <div class="footer">
-        
-        <p>&copy Copyright Ping. All rights reserved.</p>
+    <section class="content">
+      <img src="images/logo.svg" />
+      <h1>We are launching <span>soon!</span></h1>
+      <p>Subscribe and get notified</p>
+      <nav class="email">
+        <input type="email" value="    Your email address... " required /><br />
+        <button>Notify Me</button>
+      </nav>
+      <div class="graph">
+        <img src="images/illustration-dashboard.png" />
+      </div>
+    </section>
 
-    </div>
+    <footer class="footer">
+      <div class="icons">
+        <ul>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </ul>
+      </div>
+      <p>@Copyright Ping. All rights resereved.</p>
+    </footer>
   </body>
 </html>

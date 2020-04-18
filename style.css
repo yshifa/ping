@@ -11,135 +11,116 @@ body {
   font-size: 20px;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
-body {
-  font-family: "Libre Franklin", sans-serif;
-  font-size: 20px;
-}
-.bodycontent {
+.content {
   text-align: center;
+  padding: 20px;
 }
-.logo {
-  width: 25%;
-  height: 25px;
-  padding-left: 2rem;
-  margin-bottom: 3vh;
-  margin-left: 2 auto;
-  margin-top: 100px;
+.content img {
+  margin-top: 3rem;
 }
-.bodycontent h2 {
-  margin-bottom: 20px;
+.content h1 {
   color: hsl(0, 0%, 59%);
-  font-weight: lighter;
-  padding-left: 2rem;
+  margin-top: 1.2rem;
+  font-weight: normal;
 }
-.bodycontent p {
-  font-size: 1rem;
-  margin: 1rem;
-  margin-bottom: 2rem;
+.content span {
+  color: black;
+  font-weight: bold;
 }
-.search input {
-  left: 50%;
-  margin: 10px 10px 10px 50px;
+.content p {
+  font-size: 0.8rem;
+  color: black;
+  padding: 1rem;
+}
+.content input {
+  text-align: left;
+  margin-top: 2rem;
+  width: 90%;
   color: hsl(223, 100%, 88%);
-  height: 50px;
-  width: 300px;
-  padding: 1.5rem;
+  height: 3rem;
+  padding-left: 1.5rem;
+  border-radius: 2rem;
+  border-color: hsl(210, 82%, 96%);
+  border-style: solid;
   outline: none;
-  border: 1px solid hsl(223, 100%, 88%);
-  border-radius: 30px;
 }
 
-.notify input {
-  left: 50%;
-  margin: 10px 10px 50px 50px;
-  height: 50px;
-  width: 300px;
-  border-radius: 30px;
-  outline: none;
-  font-family: "Libre Franklin", sans-serif;
-  color: cornsilk;
-  border: 1px solid hsl(223, 87%, 63%);
+.content button {
+  margin-top: 1rem;
+  width: 90%;
+  height: 3rem;
+  border-radius: 2rem;
+  border-style: solid;
+  color: white;
   background-color: hsl(223, 87%, 63%);
+  box-shadow: 0px 5px 8px 0px hsl(223, 79%, 82%);
+  border-color: hsl(223, 87%, 63%);
+  outline: none;
 }
-img {
-  margin: 30px;
-  width: 350px;
-  height: 350px;
-}
-.social {
-  margin-left: 13vh;
-  padding-right: 2rem;
-  padding-top: 20px;
-  padding-left: 2rem;
-}
-.fa-facebook {
-  display: inline-block;
-  font-size: 1em;
-  padding: 1rem;
-}
-
-.fa-twitter-square {
-  display: inline-block;
-  font-size: 1em;
-  padding: 1rem;
-}
-.fa-instagram {
-  display: inline-block;
-  font-size: 1em;
-  padding: 1rem;
-}
-.footer {
-  display: inline-block;
-  color: rgb(49, 47, 47);
-  font-size: 10px;
-  margin-top: 2vh;
-  margin-left: 15vh;
+.graph img {
+  max-width: 100%;
+  margin: 5rem 0rem 5rem 0rem;
 }
 
 .footer p {
+  font-size: 0.5rem;
   margin: 2rem;
-  font-size: 0.7rem;
-  padding-right: 0.5rem;
-  margin-left: -0.2rem;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
 }
-@media only screen and (min-width: 1080px) and (max-width: 1444px) {
-  .logo {
-    width: 80px;
-    height: 25px;
+.icons {
+  margin-left: 8rem;
+  color: hsl(223, 87%, 63%);
+}
+.icons i {
+  margin-left: 1rem;
+}
 
-    margin-bottom: 1vh;
-    margin-left: auto;
+@media (min-width: 376px) {
+  body {
+    margin-left: 25%;
+    max-width: 100vh;
+    max-height: 100vh;
   }
-  .search input {
-    margin-left: 70vh;
-    padding-left: 10px;
-    float: left;
-    height: 40px;
-    width: 20%;
+  .content img {
+    height: 1.2rem;
   }
-  .notify input {
-    display: block;
-    margin-right: 34vw;
-    height: 55px;
-    width: 13%;
+  .content h1 {
+    font-size: 2rem;
   }
-  img {
-    width: 70%;
-    height: 450px;
-    margin-top: 10vh;
-    margin-left: 30vh;
+  .content p {
+    font-size: 0.9rem;
   }
-  .social {
-    margin-left: 84vh;
-    padding-top: 20px;
-    padding-right: 2rem;
+  .email {
+    display: flex;
   }
-  .footer {
-    margin-left: 85vh;
-    padding-top: 20px;
+  .content input {
+    max-width: 45%;
+    margin-left: 6.5rem;
+    height: 2.5rem;
+    margin-top: 0rem;
+  }
+
+  .content button {
+    max-width: 20%;
+    margin-top: 0rem;
+    margin-left: 1rem;
+    height: 2.5rem;
+  }
+
+  .graph img {
+    margin-top: 3rem;
+    width: 65%;
+    height: 70%;
+  }
+  .icons {
+    margin-top: -4rem;
+    float: center;
+    margin-left: 20rem;
+    padding: 1rem;
+  }
+  .footer p {
+    font-size: 1rem;
+    margin-top: 1rem;
   }
 }
